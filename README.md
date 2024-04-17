@@ -1,2 +1,4 @@
 # pygame-3d-cube
-colored 3d cube controlled with keyboard in pygame
+A demo of 3D Cube controlled 
+1. locally with keyboard (pygame, opengl)
+2. remotely with RF transmitter and receiver (+ ibus, multiprocessing, interprocess communications)

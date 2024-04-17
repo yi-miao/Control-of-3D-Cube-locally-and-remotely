@@ -85,17 +85,17 @@ class CCube:
 
 			keys = pygame.key.get_pressed()
 			if keys[K_LEFT]:
-				glRotatef(1, 0, 0, 1)
-			if keys[K_RIGHT]:
-				glRotatef(1, 0, 0, -1)
-			if keys[K_UP]:
 				glRotatef(1, -1, 0, 0)
-			if keys[K_DOWN]:
+			if keys[K_RIGHT]:
 				glRotatef(1, 1, 0, 0)
-			if keys[K_1]:
+			if keys[K_UP]:
 				glRotatef(1, 0, -1, 0)
-			if keys[K_2]:
+			if keys[K_DOWN]:
 				glRotatef(1, 0, 1, 0)
+			if keys[K_1]:
+				glRotatef(1, 0, 0, -1)
+			if keys[K_2]:
+				glRotatef(1, 0, 0, 1)
 							
 			glClear(GL_COLOR_BUFFER_BIT|GL_DEPTH_BUFFER_BIT)
 			self.Cube()
